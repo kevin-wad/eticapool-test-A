@@ -1,0 +1,91 @@
+
+ {
+ 
+
+  "staging":{
+    "poolEnv":"staging",
+    "apiConfig":{
+      "coinGeckoApiURL": "https://api.coingecko.com/api/v3/coins/oxbitcoin?localization=en&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false",
+      "defiPulseApiKey": ""
+    }, 
+    
+    "miningConfig":{
+      "minimumShareDifficulty": 53,
+      "minimumShareDifficultyHard": 60,
+      "allowCustomVardiff": false 
+    },
+  
+    "mintingConfig":{
+      "overrideSuspension": true, 
+      "maxGasPriceGwei": 200, 
+      "gasPriceBoost":10,
+      "poolTokenFee": 5,
+    
+      "publicAddress": "0x437aDE7282cFc9C5EB4D53e4c17b1e5D3c87eaCc",
+      "privateKey":"",
+
+      "networkName":"etica",
+      "web3Provider": "http://142.93.138.113:8545"
+    },
+  
+    "paymentsConfig":{
+      "enablePPS":true,
+      "maxGasPriceGwei": 5,
+      "minBalanceForTransfer": 1500000000000000000,  
+      "rebroadcastPaymentWaitBlocks": 10,
+      "minPaymentsInBatch": 1,
+      "publicAddress": "0xFc3BB79eD94784324B2b4027320306e2A2035d2E",
+      "privateKey":"",
+
+      "networkName":"etica",
+      "web3Provider": "http://142.93.138.113:8545"
+    }
+  },
+  "production":{
+    "poolEnv":"production",
+    "apiConfig":{
+      "coinGeckoApiURL": "https://api.coingecko.com/api/v3/coins/oxbitcoin?localization=en&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false",
+      "defiPulseApiKey": ""
+    }, 
+    
+    "miningConfig":{
+      "minimumShareDifficulty": 64,
+      "minimumShareDifficultyHard": 128,
+      "allowCustomVardiff": false 
+    },
+  
+    "mintingConfig":{
+      "overrideSuspension": true, 
+      "maxGasPriceGwei": 200000, 
+      "gasPriceBoost":10,
+      "poolTokenFee": 5,
+
+      "publicAddress": "0x3e457C7F819B7f340A58A3A98b950B61c05B105F",
+      "privateKey":"",
+      
+      "networkName":"etica",
+      "web3Provider": "http://142.93.138.113:8545"
+    },
+  
+    "paymentsConfig":{
+      "enablePPS":true,
+      "maxGasPriceGwei": 5,
+      "minBalanceForTransfer": 1500000000000000000,  
+      "rebroadcastPaymentWaitBlocks": 10,
+      "minPaymentsInBatch": 1,
+      "PoolSecurityBalance": 0,
+
+      
+      "publicAddress": "0xFc3BB79eD94784324B2b4027320306e2A2035d2E",
+      "privateKey":"",
+
+      "networkName":"etica",
+      "web3Provider": "http://142.93.138.113:8545"
+    }
+  }
+  
+  
+  
+ 
+}
+ 

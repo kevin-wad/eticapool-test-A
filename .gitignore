@@ -1,0 +1,11 @@
+node_modules
+account.config.json
+test.account.config.json
+dump.rdb
+servercommands.md 
+
+dist/*
+
+logs
+
+tmp.txt
