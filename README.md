@@ -66,45 +66,45 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubunt
 
 ## EXAMPLE FRESH INSTALL ON BRAND NEW SERVER, SERVER COMMANDS:
 
--> sudo apt-get install build-essential
-then : install nvm with following command:
--> wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-
-(nvm install guides (follow part a): https://www.whitesourcesoftware.com/free-developer-tools/blog/how-to-update-node-js-to-latest-version/)
-
-
-close terminal then open it again
--> sudo apt update
--> command -v nvm
--> nvm install 16.13.1
--> node --version
--> npm --version
--> npm i pm2 -g
--> curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
--> echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
--> sudo apt update
--> sudo apt install mongodb-org
--> sudo systemctl start mongod.service
--> sudo ufw allow 22
--> sudo ufw allow 3000
--> sudo ufw allow 8080
--> sudo ufw allow 8081
--> sudo ufw allow ssh
--> sudo ufw enable
--> npm install
--> npm run build
-
-Initiate pool with:
--> node index.js (creates database tokenpool_production and collections)
-
-Run pool with pm2:
--> pm2 start index.js
--> pm2 start indexcleanercoordinator.js
-
-You're ETI pool is running
-
-
-
+-> sudo apt-get install build-essential  
+then : install nvm with following command:  
+-> wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash  
+  
+(nvm install guides (follow part a): https://www.whitesourcesoftware.com/free-developer-tools/blog/how-to-update-node-js-to-latest-version/)  
+  
+  
+close terminal then open it again  
+-> sudo apt update  
+-> command -v nvm  
+-> nvm install 16.13.1  
+-> node --version  
+-> npm --version  
+-> npm i pm2 -g  
+-> curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -  
+-> echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list  
+-> sudo apt update  
+-> sudo apt install mongodb-org  
+-> sudo systemctl start mongod.service  
+-> sudo ufw allow 22  
+-> sudo ufw allow 3000  
+-> sudo ufw allow 8080  
+-> sudo ufw allow 8081  
+-> sudo ufw allow ssh  
+-> sudo ufw enable  
+-> npm install  
+-> npm run build  
+  
+Initiate pool with:  
+-> node index.js (creates database tokenpool_production and collections)  
+  
+Run pool with pm2:  
+-> pm2 start index.js  
+-> pm2 start indexcleanercoordinator.js  
+  
+You're ETI pool is running  
+  
+  
+  
 
 
 
