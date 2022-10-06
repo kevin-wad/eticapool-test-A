@@ -8,10 +8,10 @@ import  cron from 'node-cron'
 
   //perform this with a robust task runner  - bree  and /tasks folder 
 
-  import PeerHelper from './peer-helper.js'
+  import PeerHelper from '../lib/util/peer-helper.js'
 
 
-import LoggingHelper from './logging-helper.js'
+import LoggingHelper from '../lib/util/logging-helper.js'
 
 
 export default class NetworkPools  {
