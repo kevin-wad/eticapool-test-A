@@ -91,7 +91,6 @@ close terminal then open it again
 -> sudo ufw allow 8081  
 -> sudo ufw allow ssh  
 -> sudo ufw enable  
--> npm install  
 -> npm run build  
   
 Initiate pool with:  
