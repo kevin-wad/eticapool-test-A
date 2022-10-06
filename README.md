@@ -91,6 +91,12 @@ close terminal then open it again
 -> sudo ufw allow 8081  
 -> sudo ufw allow ssh  
 -> sudo ufw enable  
+
+-> cd /var  
+-> mkdir www  
+-> cd www  
+-> git clone https://github.com/kevin-wad/eticapool-test-A.git  
+
 -> npm run build  
   
 Initiate pool with:  
