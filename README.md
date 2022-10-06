@@ -76,7 +76,7 @@ then : install nvm with following command:
 close terminal then open it again  
 -> sudo apt update  
 -> command -v nvm  
--> nvm install 14 
+-> nvm install 14  
 -> node --version  
 -> npm --version  
 -> npm i pm2 -g  
