@@ -74,6 +74,7 @@ then : install nvm with following command:
   
   
 close terminal then open it again  
+-> -> sudo apt install node-gyp
 -> sudo apt update  
 -> command -v nvm  
 -> nvm install 14  
