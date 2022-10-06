@@ -97,6 +97,7 @@ close terminal then open it again
 -> cd www  
 -> git clone https://github.com/kevin-wad/eticapool-test-A.git  
 
+-> npm install   
 -> npm run build  
   
 Initiate pool with:  
